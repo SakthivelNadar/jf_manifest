@@ -1,1 +1,1 @@
-add_lunch_combo lineage_i9100-userdebug
+add_lunch_combo lineage_jfvelte-userdebug
