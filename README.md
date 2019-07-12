@@ -11,6 +11,9 @@ Build Lineage 16.0 for i9100 with rINanDO's repository (Beta)
 
 3. Initialize your local repository using the Lineage trees, use a command
   repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+  
+4. Sync it:
+   repo sync
 
 4. Clone my repo:
   git clone https://github.com/Sonic-sakthivel123/lineage_manifests.git -b lineage-16.0 .repo/local_manifests
@@ -18,7 +21,7 @@ Build Lineage 16.0 for i9100 with rINanDO's repository (Beta)
 5. Sync the repo:
   repo sync --no-tags --no-clone-bundle --force-sync -c
 
-6. Add vendorsetup.sh in device/samsung/i9100:
+6. Add vendorsetup.sh in device/samsung/jfvelte:
  cd device/samsung/jfvelte && wget -c https://raw.githubusercontent.com/Sonic-sakthivel123/lineage_manifests/lineage-16.0/vendorsetup.sh && cd ../../..
 
 7. To build:
