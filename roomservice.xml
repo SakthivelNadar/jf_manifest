@@ -2,20 +2,21 @@
 <manifest>
 
   <!-- Removals -->
-  <remove-project name="LineageOS/android_frameworks_base" /> 
-
+  
   <!-- Device -->
-  <project name="rINanDO/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lineage-16.0" />
-  <project name="rINanDO/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-16.0" />
-
+  <project name="team-infusion-developers/android_device_samsung_jfve-common" path="device/samsung/jfve-common" remote="github" revision="lineage-16.0" />
+  <project name="team-infusion-developers/android_device_samsung_jfvelte" path="device/samsung/jfvelte" remote="github" revision="lineage-16.0" />
+  
   <!-- Kernel -->
-  <project name="rINanDO/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
+  <project name="team-infusion-developers/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
-  <project name="linusdan/vendor_samsung" path="vendor/samsung" remote="github" revision="pie" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
 
   <!-- Extras -->
-  <project name="rINanDO/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
-  <project name="rINanDO/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />  
-        
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
+
 </manifest>
