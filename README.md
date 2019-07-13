@@ -1,5 +1,5 @@
 # Lineage Manifests
-Build Lineage 16.0 for i9100 with rINanDO's repository (Beta)
+Build Lineage 16.0 for i9515 (ALPHA)
 
 ![lineage logo](https://github.com/linusdan/local_manifests/raw/lineage-16.0/lineage.png)
 
