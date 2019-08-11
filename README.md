@@ -10,7 +10,7 @@ Build Lineage 16.0 for i9515 (ALPHA)
 2. cd lineage-16.0
 
 3. Initialize your local repository using the Lineage trees, use a command
-  repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+  repo init  --depth=1 -u git://github.com/LineageOS/android.git -b lineage-16.0
   
 4. Sync it:
    repo sync
